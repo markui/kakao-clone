@@ -1,0 +1,36 @@
+@import 'variables';
+
+.tab-bar {
+    background-color: #F7F7F7;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 5px;
+    border-top: 1px solid #c1c1c1;
+
+    .tab-bar__tab {
+        // display: flex;
+        // flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        color: $icon-unclicked;
+
+        &.tab-bar__tab--selected {
+            color: $icon-clicked;
+        }
+        > i {
+            display: block;
+            font-size: 24px;
+        }
+
+        > .tab-bar__title {
+            font-size: 10px;
+        }
+    }
+
+}
+
+

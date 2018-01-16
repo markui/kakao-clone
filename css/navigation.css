@@ -1,0 +1,35 @@
+.tab-bar {
+  background-color: #F7F7F7;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 30px 5px;
+  border-top: 1px solid #c1c1c1;
+}
+
+.tab-bar .tab-bar__tab {
+  text-align: center;
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+.tab-bar .tab-bar__tab.tab-bar__tab--selected {
+  color: #523737;
+}
+
+.tab-bar .tab-bar__tab > i {
+  display: block;
+  font-size: 24px;
+}
+
+.tab-bar .tab-bar__tab > .tab-bar__title {
+  font-size: 10px;
+}
+/*# sourceMappingURL=navigation.css.map */
