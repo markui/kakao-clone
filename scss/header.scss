@@ -1,0 +1,34 @@
+.top-header {
+    background-color: #523737;
+    color: white;
+    padding: 5px 10px 15px 10px;
+    
+    > .header__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+
+    > .header__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px;
+    }
+
+    .header__column {
+        width: 33%;
+
+        &:nth-child(2) {
+            text-align: center;
+        }
+
+        &:last-child {
+            text-align: right;
+        }
+
+        .header__number {
+            color: yellow;
+        }
+    }
+}
